@@ -1,5 +1,7 @@
 # Multi Dimensional Tic-Tac-Toe Algorithm
-Yeah, I know this is bad and spaghetti code :D
+Yeah, I know this is bad and spaghetti code :D But it works with no issues.
+
+Took 5-6 hours to write from scratch.
 
 This is an algorithm that I made for fun. The idea is came from my friend.
 Basically two bots play the multi dimensional tic-tac-toe. Interactive mode can be enabled so the game can be played between the computer and human too.
@@ -10,6 +12,13 @@ If `bot_sleep` is `True`, then bots will wait between the moves so you can watch
 
 ## Game logic
 There are 9 tic-tac-toe instances on the grid. The grid itself is another tic tac-toe-game. The moves on the small tic-tac-toe instances decide the next move.
+
+Grid index scheme:
+```
+0 1 2
+3 4 5
+6 7 8
+```
 
 ### Example
 ```
