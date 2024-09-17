@@ -190,7 +190,7 @@ while True:
 
     # current player selects a random cell if the game in the current cell is ended
     tries = []
-    while "x" in canvas[last_move[1]] or "o" in canvas[last_move[1]] or " " not in canvas[last_move[1]]:
+    while last_move[1] != None "x" in canvas[last_move[1]] or "o" in canvas[last_move[1]] or " " not in canvas[last_move[1]]:
         if len(tries) == 9:
             print("Draw!")
             show_overview()
